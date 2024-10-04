@@ -36,16 +36,118 @@ header {
 }
 .experience {
   height: 100vh;
-  background-color: var(--page-color-1);
+  background-color: var(--page-color-2);
 }
 .education {
   height: 100vh;
-  background-color: var(--page-color-2);
+  background-color: var(--page-color-1);
 }
 .contact {
   height: 100vh;
-  background-color: var(--page-color-1);
+  background-color: var(--page-color-2);
 }
 .section-1 {
   height: 40vh;
+}
+.bar-1 {
+  height: 5px;
+  background-color: #0e0e0e;
+  border-radius: 5px;
+}
+.client {
+  /* height: 50vh; */
+  background-color: var(--page-color-1);
+}
+.us .bar {
+  height: 5px;
+  background-color: #0e0e0e;
+  border-radius: 5px;
+}
+.user-img-box {
+  height: 140px;
+  width: 140px;
+  background-color: aqua;
+  border-radius: 140px;
+  background-image: url("img/user.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.circular-progress {
+  --size: 140px;
+  --half-size: calc(var(--size) / 2);
+  --stroke-width: 10px;
+  --radius: calc((var(--size) - var(--stroke-width)) / 2);
+  --circumference: calc(var(--radius) * pi * 2);
+  --dash: calc((var(--progress) * var(--circumference)) / 100);
+}
+.circular-progress circle {
+  cx: var(--half-size);
+  cy: var(--half-size);
+  r: var(--radius);
+  stroke-width: var(--stroke-width);
+  fill: none;
+  stroke-linecap: round;
+}
+
+.circular-progress circle.bg {
+  stroke: #ddd;
+}
+.circular-progress circle.fg {
+  transform: rotate(-90deg);
+  transform-origin: var(--half-size) var(--half-size);
+  stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
+  transition: stroke-dasharray 0.3s linear 0s;
+  stroke: #000000;
+}
+.work-img {
+  height: 200px;
+  background-color: aqua;
+}
+.i-1 {
+  background-image: url("img/i-1.jpg");
+  background-size: cover;
+}
+.i-2 {
+  background-image: url("img/i-2.jpg");
+  background-size: cover;
+}
+.i-3 {
+  background-image: url("img/i-3.jpg");
+  background-size: cover;
+}
+.i-4 {
+  background-image: url("img/i-4.jpg");
+  background-size: cover;
+}
+.i-5 {
+  background-image: url("img/i-5.jpg");
+  background-size: cover;
+}
+.i-6 {
+  background-image: url("img/i-6.jpg");
+  background-size: cover;
+}
+.i-7 {
+  background-image: url("img/i-7.jpg");
+  background-size: cover;
+}
+.i-8 {
+  background-image: url("img/i-8.jpg");
+  background-size: cover;
+}
+.circle-box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(140, 140, 140);
+  border-radius: 100px;
+  line-height: 100px;
+}
+.contact-box {
+  height: 150px;
+  width: 160px;
+  background-color: rgb(171, 174, 174);
+  color: white;
+}
+i {
+  font-size: 1.4em;
 }
