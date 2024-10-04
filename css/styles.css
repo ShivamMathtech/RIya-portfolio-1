@@ -1,0 +1,51 @@
+body {
+  background-color: #0e0e0e;
+}
+:root {
+  --page-color-1: rgb(110, 178, 199);
+  --page-color-2: rgb(246, 246, 246);
+  --overlay-color: rgba(110, 178, 199, 0.3);
+}
+.main-page {
+  height: 100vh;
+  background-color: var(--page-color-1);
+  background-image: url("img/riya.jpg");
+  background-size: cover;
+}
+.overlay {
+  background-color: var(--overlay-color);
+}
+.content-home {
+  height: calc(100vh - 100px);
+}
+header {
+  height: 100px;
+  background-color: #333737;
+}
+.about {
+  height: 100vh;
+  background-color: var(--page-color-2);
+}
+.skills {
+  height: 100vh;
+  background-color: var(--page-color-1);
+}
+.portfolio {
+  height: 100vh;
+  background-color: var(--page-color-2);
+}
+.experience {
+  height: 100vh;
+  background-color: var(--page-color-1);
+}
+.education {
+  height: 100vh;
+  background-color: var(--page-color-2);
+}
+.contact {
+  height: 100vh;
+  background-color: var(--page-color-1);
+}
+.section-1 {
+  height: 40vh;
+}
