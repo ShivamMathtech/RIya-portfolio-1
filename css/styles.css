@@ -23,27 +23,27 @@ header {
   background-color: #333737;
 }
 .about {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--page-color-2);
 }
 .skills {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--page-color-1);
 }
 .portfolio {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--page-color-2);
 }
 .experience {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--page-color-2);
 }
 .education {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--page-color-1);
 }
 .contact {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--page-color-2);
 }
 .section-1 {
